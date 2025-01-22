@@ -110,6 +110,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "Ayarlar";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -152,6 +153,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Dashboard";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -166,6 +168,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Banka Hareketleri";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -195,6 +198,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Kategoriler";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 

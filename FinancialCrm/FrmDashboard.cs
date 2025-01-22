@@ -80,6 +80,41 @@ namespace FinancialCrm
                 lblAmount.Text = bill.ToString() + " ₺";
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmCategory category = new FrmCategory();
+            category.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmBank bank = new FrmBank();
+            bank.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmBilling billing = new FrmBilling();
+            billing.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmProcess process = new FrmProcess();
+            process.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmSettings settings = new FrmSettings();
+            settings.Show();
+            this.Hide();
+        }
     }
     
 }
