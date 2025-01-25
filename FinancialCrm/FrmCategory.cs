@@ -92,5 +92,24 @@ namespace FinancialCrm
             settings.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmCategory category = new FrmCategory();
+            category.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmSpending frmSpending = new FrmSpending();
+            frmSpending.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

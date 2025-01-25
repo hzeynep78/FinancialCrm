@@ -79,6 +79,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "Çıkış Yap";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -121,7 +122,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(144, 33);
             this.button5.TabIndex = 4;
-            this.button5.Text = "Faturalar";
+            this.button5.Text = "Giderler";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -166,7 +167,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(144, 33);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Giderler";
+            this.button2.Text = "Faturalar";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

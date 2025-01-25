@@ -77,5 +77,24 @@ namespace FinancialCrm
             settings.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmSpending frmSpending = new FrmSpending();
+            frmSpending.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmBank frmBank = new FrmBank();
+            frmBank.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
